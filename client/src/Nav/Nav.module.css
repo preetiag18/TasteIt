@@ -1,0 +1,64 @@
+nav ul li {
+  display: inline-block;
+  margin: 1rem;
+}
+
+nav ul li a {
+  padding: 0.3rem 0.5rem;
+  margin: 0 1rem;
+  text-decoration: none;
+  height: 100%;
+  color: white;
+  font-size: 1.5rem;
+}
+
+nav ul li a:hover {
+  border-bottom: 4px solid;
+}
+
+.mob_button {
+  display: none;
+}
+
+/* MOBILE */
+@media (max-width: 800px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .mob_button {
+    background-color: transparent;
+    display: block;
+    border: none;
+    color: white;
+    padding: 1rem;
+  }
+
+  .hideUl {
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: visibility 0s, opacity 0.5s linear;
+  }
+
+  .displayUl {
+    width: 100%;
+    display: block;
+    opacity: 1;
+    position: absolute;
+    left: 0;
+    top: 6rem;
+    visibility: visible;
+    background-color: #093747;
+  }
+
+  .displayLi {
+    display: block;
+  }
+  .displayLiA {
+    color: white;
+    display: inline;
+    width: 100%;
+    font-size: 1rem;
+  }
+}

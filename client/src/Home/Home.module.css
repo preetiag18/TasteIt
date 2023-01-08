@@ -1,0 +1,21 @@
+.moreDetailsContainer {
+  margin: 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 1rem;
+}
+
+.moreDetails {
+  border: 1px solid black;
+  max-width: 20rem;
+  padding: 3rem;
+}
+
+.moreDetails > * {
+  margin-bottom: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
