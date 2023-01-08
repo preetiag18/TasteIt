@@ -44,7 +44,7 @@ server will start running on port 3001 http://localhost:3001
 In order to run client, run below command
 
 ```bash
-cd server
+cd client
 npm install
 npm start
 ```

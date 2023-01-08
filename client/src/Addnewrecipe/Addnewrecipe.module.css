@@ -27,7 +27,7 @@
 }
 .form_input:focus {
   border-color: #093747;
-  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
 }
 
 .form_button {
@@ -75,7 +75,7 @@
   cursor: pointer;
 }
 .btn:hover {
-  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
 }
 
 .m_5 {
