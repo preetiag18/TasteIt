@@ -10,6 +10,7 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^29.4.0",
     "axios": "^1.2.2",
     "classnames": "^2.3.2",
     "react": "^18.2.0",
@@ -41,6 +42,16 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "react-test-renderer": "^18.2.0",
+    "msw": "^1.1.1"
+  },
+  "jest": {
+    "transformIgnorePatterns": [
+      "node_modules/(?!axios)"
     ]
   }
 }

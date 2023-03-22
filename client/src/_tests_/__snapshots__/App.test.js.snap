@@ -1,0 +1,187 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders correctly 1`] = `
+<div
+  className="layout"
+>
+  <header
+    className="header"
+  >
+    <a
+      aria-current="page"
+      className="title active"
+      href="/"
+      onClick={[Function]}
+    >
+      <h2>
+        TasteIt
+      </h2>
+    </a>
+    <nav>
+      <button
+        className="mob_button"
+        onClick={[Function]}
+      >
+        <svg
+          aria-hidden={true}
+          className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+          data-testid="MenuRoundedIcon"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M4 18h16c.55 0 1-.45 1-1s-.45-1-1-1H4c-.55 0-1 .45-1 1s.45 1 1 1zm0-5h16c.55 0 1-.45 1-1s-.45-1-1-1H4c-.55 0-1 .45-1 1s.45 1 1 1zM3 7c0 .55.45 1 1 1h16c.55 0 1-.45 1-1s-.45-1-1-1H4c-.55 0-1 .45-1 1z"
+          />
+        </svg>
+      </button>
+      <ul
+        className="hideUl"
+      >
+        <li
+          className=""
+        >
+          <a
+            aria-current="page"
+            className="active"
+            href="/"
+            onClick={[Function]}
+          >
+            Home
+          </a>
+        </li>
+        <li
+          className=""
+        >
+          <a
+            className=""
+            href="/recipes"
+            onClick={[Function]}
+          >
+            Recipes
+          </a>
+        </li>
+        <li
+          className=""
+        >
+          <a
+            className=""
+            href="/addnewrecipes"
+            onClick={[Function]}
+          >
+            Add new recipes
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main
+    className="main"
+  >
+    <div>
+      <div
+        className="container"
+      >
+        <video
+          autoPlay={true}
+          className="bgVideo"
+          loop={true}
+          muted={true}
+        >
+          <source
+            src="Rice.mp4"
+            type="video/mp4"
+          />
+        </video>
+        <div
+          className="caption"
+        >
+          <h1
+            className="heading large_font"
+          >
+            TasteIt
+          </h1>
+          <h2
+            className="heading medium_font"
+          >
+            TasteIt is the recipe app which is made in React22S group lessons
+          </h2>
+          <a
+            className="heading"
+            href="/recipes"
+            onClick={[Function]}
+          >
+            <button
+              className="button"
+            >
+              Browse recipes
+            </button>
+          </a>
+        </div>
+      </div>
+      <div
+        className="moreDetailsContainer"
+      >
+        <div
+          className="moreDetails"
+        >
+          <h3>
+            Browse recipe
+          </h3>
+          <p>
+            Find your favorite in this collection. You can seatmmö,......
+          </p>
+          <a
+            className=""
+            href="/recipes"
+            onClick={[Function]}
+          >
+            All recipes
+          </a>
+        </div>
+        <div
+          className="moreDetails"
+        >
+          <h3>
+            Add recipe
+          </h3>
+          <p>
+            Recipe from your country misssing...!! , no worries, you can add them now
+          </p>
+          <a
+            className=""
+            href="/addnewrecipes"
+            onClick={[Function]}
+          >
+            Add new recipes
+          </a>
+        </div>
+        <div
+          className="moreDetails"
+        >
+          <h3>
+            Want to know more about our projects
+          </h3>
+          <p>
+            Visit our website
+          </p>
+          <a
+            href="https://bc.fi"
+            rel="noreferrer"
+            target="_blank"
+          >
+            Business college helsinki homepage
+          </a>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer
+    className="footer"
+    id="footer"
+  >
+    <p>
+      Copyright © 2023
+    </p>
+  </footer>
+</div>
+`;

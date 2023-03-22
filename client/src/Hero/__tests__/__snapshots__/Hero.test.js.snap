@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Hero renders correctly 1`] = `
+<div
+  className="container"
+>
+  <video
+    autoPlay={true}
+    className="bgVideo"
+    loop={true}
+    muted={true}
+  >
+    <source
+      src="Rice.mp4"
+      type="video/mp4"
+    />
+  </video>
+  <div
+    className="caption"
+  >
+    <h1
+      className="heading large_font"
+    >
+      TasteIt
+    </h1>
+    <h2
+      className="heading medium_font"
+    >
+      TasteIt is the recipe app which is made in React22S group lessons
+    </h2>
+    <a
+      className="heading"
+      href="/recipes"
+      onClick={[Function]}
+    >
+      <button
+        className="button"
+      >
+        Browse recipes
+      </button>
+    </a>
+  </div>
+</div>
+`;

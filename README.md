@@ -21,6 +21,16 @@ This application has two folder, client and server.
 - This is built in react.
 - [React-hook-form](https://react-hook-form.com/) is used for creating forms in the application
 
+#### Run test
+
+To check the tests of client application, run below command
+
+```bash
+cd client
+npm install
+npm run test
+```
+
 ### Server
 
 - This is a node server, which is serving the data for the front-end application.

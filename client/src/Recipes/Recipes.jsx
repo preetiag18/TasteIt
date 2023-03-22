@@ -1,29 +1,33 @@
 import React, { useEffect } from "react";
 import { useState } from "react";
-
 import axios from "axios";
-
 import Recipe from "../Recipe/Recipe";
-
 import classes from "./Recipes.module.css";
+
+export const searchItem = (data, searchKey) => {
+  return data.filter((item) => {
+    return item.name.toLowerCase().includes(searchKey);
+  });
+};
 
 const Recipes = () => {
   const [data, setData] = useState([]);
   const [search, setSearch] = useState([]);
   useEffect(() => {
-    axios.get("http://localhost:3001/recipes").then((res) => {
+    getReceipes().then((res) => {
       setData(res.data);
     });
   }, []);
+
+  const getReceipes = () => {
+    return axios.get("http://localhost:3001/recipes");
+  };
 
   const searchHandler = (e) => {
     setSearch(e.target.value);
   };
 
-  const searchedNameFilter = data.filter((item) => {
-    return item.name.toLowerCase().includes(search);
-  });
-
+  const searchedNameFilter = searchItem(data, search);
   return (
     <>
       <div className={classes.search}>
